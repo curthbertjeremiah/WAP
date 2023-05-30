@@ -16,6 +16,6 @@ a:link{
     color: red;
 }
 
-p a:hover{
+ol a:hover{
     background-color: aquamarine;
 }
