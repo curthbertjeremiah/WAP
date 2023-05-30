@@ -1,0 +1,21 @@
+body {
+    background-color:#5A5547;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+h1, h2{
+    color:blue;
+}
+
+p>span{
+    color: yellow;
+}
+
+a:link{
+    color: red;
+}
+
+p a:hover{
+    background-color: aquamarine;
+}
