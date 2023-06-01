@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curthbert - Welcome</title>
+    <link rel="stylesheet" href="welcome-style.css">
+    <link rel="icon" href="../Lab1/miuLogo.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+    <nav></nav>
+    <header class="container">
+        <img src="../Lab1/miuLogo.png" alt="miuLogo">
+        <h1>Welcome Tina</h1>
+        <!-- <span class="Left"><button>Logout</button></span> -->
+        <span class="login_Button"><button>Login</button></span>
+    </header>
+
+    <hr>
+
+    <div id="main_div">
+    <h1>Product List</h1>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Node.js</th>
+                    <th>9.99</th>
+                    <th>8</th>
+                    <th><img src="add-cart.png" alt="add-cart" class="icon"></th>
+                </tr>
+                <tr>
+                    <th>React</th>
+                    <th>19.99</th>
+                    <th>5</th>
+                    <th><img src="add-cart.png" alt="add-cart" class="icon"></th>
+                </tr>
+                <tr>
+                    <th>Node.js</th>
+                    <th>29.99</th>
+                    <th>13</th>
+                    <th><img src="add-cart.png" alt="add-cart" class="icon"></th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <h1>Your shopping cart</h1>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Qauntity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Node.js</th>
+                    <th>9.99</th>
+                    <th>9.99</th>
+                    <th>- <input type="text"> +</th>
+                </tr>
+                <tr>
+                    <th>Angular</th>
+                    <th>29.99</th>
+                    <th>290.99</th>
+                    <th>- <input type="text"> +</th>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
+            <thead><tr class="total"><th class="total">Total: 300.98</th></tr></thead>
+        </table>
+        <button class="order_Button">Place Order</button>
+    </div>
+</div>
+</body>
+
+</html>
