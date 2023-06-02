@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curthbert - Workshop-Registration</title>
+    <link rel="stylesheet" href="Workshop-Registration.css">
+    <link rel="icon" href="../Lab1/miuLogo.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+    <header>
+        <h1>Workshop Registration</h1>
+        <span><select name="actions" id="actions">
+                <option value="none">More Options</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+            </select>
+        </span>
+    </header>
+
+    <h6>Register now while seats are available!</h6>
+
+
+    <form action="https://www.google.com/" class="registration_Form">
+        <div id="form_div">
+            <div class="form_columns">
+                <div class="items">
+                    <Label class="split" for="first_name">First Name</Label> <input type="text" name="first_name"
+                        id="first_name" class="split" required>
+                </div>
+                <div class="items">
+                    <Label for="last_name">Last Name</Label> <input type="text" name="last_name" id="last_name"
+                        required>
+                </div>
+                <div class="items">
+                    <Label for="company">Company/Institution</Label> <input type="text" name="company" id="company"
+                        required>
+                </div>
+                <div class="items">
+                    <Label for="address">Address</Label><textarea name="address" id="address" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="items">
+                    <Label for="city">City</Label> <input type="text" name="city" id="city">
+                </div>
+
+                <div class="items">
+                    <label for="state">State/ Province/ Region</label>
+                        <select name="state" id="state">
+                            <option value="select">-Select-</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Washington">Washington</option>
+                            <option value="Seatle">Seatle</option>
+                        </select>
+                </div>
+
+                <div class="items">
+                    <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="select">-Select-</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Russia">Russia</option>
+                        </select>
+                </div>
+
+                <div class="items">
+                    <Label for="email">Email</Label> <input type="text" name="email" id="email" required>
+                </div>
+                <div class="items">
+                    <Label for="phone">Phone Number</Label> <input type="text" name="phone" id="phone" required>
+                </div>
+
+            </div>
+            <div class="form_columns">
+                <div class="items">
+                    <h6 id="form_h6">Lunch</h6>
+                </div>
+                <div class="items">
+                    <label for="meal">Meal Preference</label>
+                    <select name="meal" id="meal">
+                        <option value="vegetarian">vegetarian</option>
+                        <option value="non-dairy">Non-dairy</option>
+                        <option value="non-vegeterian">Non-vegeterian</option>
+                    </select>
+
+                </div>
+
+                <h6>Payment details</h6>
+                <div class="Payment">
+                    <div class="Payment_Details">
+                        <label>Payment Mode</label>
+                    </div>
+                    <div class="Payment_Details">
+                        <label><input type="checkbox" name="cash" id="cash">Cash</label>
+                        <br>
+                        <label><input type="checkbox" name="cheque" id="cheque">Cheque</label>
+                        <br>
+                        <label><input type="checkbox" name="draft" id="draft">Demand Draft</label>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="items">
+                    <Label for="cheque_no">Cheque No.</Label> <input type="text" name="cheque_no" id="cheque_no">
+                </div>
+
+                <div class="items">
+                    <Label for="bank_name">Drawn on (Bank Name)</Label> <input type="text" name="bank_name"
+                        id="bank_name">
+                </div>
+
+                <div class="items">
+                    <Label for="payable_at">Payable at</Label> <input type="text" name="payable_at" id="payable_at">
+                </div>
+            </div>
+        </div>
+        <div class="form_buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
