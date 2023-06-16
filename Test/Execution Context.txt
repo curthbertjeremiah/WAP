@@ -1,0 +1,6 @@
+1. {b:fn, x:undefined, outter:null}
+2. {b:fn, x:20, outter:null}
+3. {a:fn, arguments(length:0), outter:global}
+4. {a:fn, arguments(length:0), x:10, outter:global}
+5. {arguments(0:50, length:1), outter:b}
+6. {arguments(0:50, length:1), outter:b}
